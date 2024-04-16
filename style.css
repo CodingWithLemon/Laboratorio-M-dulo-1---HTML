@@ -1,0 +1,104 @@
+
+
+.content {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navBar {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.parteSuperior {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+.opciones {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    float: center;
+    margin: 8px;
+    padding: 8px;
+}
+
+.iconos i{
+    padding: 16px;
+}
+
+span {
+    margin: 8px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 8px;
+    padding: 8px;
+    grid-gap: 20px;
+}
+
+ul {
+    list-style: none;
+    justify-items: center;
+}
+
+.containerPics {
+    padding: 16pxpx;
+    margin: 16pxpx;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin: 16px;
+    padding: 16px;
+}
+
+.opciones li {
+    padding: 16px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+.footerItem {
+    display: flex;
+    align-items: center;
+}

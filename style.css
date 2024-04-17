@@ -21,6 +21,7 @@
     top: 0;
     background-color: white;
 }
+
 .parteSuperior {
     display: flex;
     flex-flow: wrap;
@@ -63,8 +64,8 @@ ul {
 }
 
 .containerPics {
-    padding: 16pxpx;
-    margin: 16pxpx;
+    padding: 16px;
+    margin: 16px;
 }
 
 footer {
@@ -101,4 +102,27 @@ footer {
 .footerItem {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 920px) {
+    .opciones {
+        display: none;
+    }
+    .iconos {
+        display: none;
+    }
+    .navBar i{
+        margin: 0 auto;
+    }
+    .fotos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footerItem {
+        border-bottom: 1px solid white;
+        padding-bottom: 16px;
+    }
 }
